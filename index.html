@@ -108,7 +108,15 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
+ /* Button hover effect */
+ .btn {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
+  .btn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
 
 </style>
 
@@ -439,8 +447,9 @@
         </div>
 	<br>
 		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex justify-content-center">  
-			<div class="col-md-4 d-flex ftco-animate">
+		<div class="row d-flex">  
+<!-- 			<div class="col-md-4 d-flex ftco-animate"> -->
+	              
 				<div class="blog-entry justify-content-end">
 				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.png');">
 				</a>
@@ -589,7 +598,7 @@
 			<div class="col-md-12 text-center">
   
 			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- 	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
 	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		  </div>
